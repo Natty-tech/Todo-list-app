@@ -1,0 +1,140 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.Wholewrapper {
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+.headerpart {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30%;
+  background-color: rgb(238, 238, 238);
+}
+.bodypart {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 100%;
+  max-height: 70%;
+  padding-left: 5%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.todo {
+  margin: auto;
+}
+.todo input {
+  width: 300px;
+  height: 30px;
+}
+.todo button {
+  color: white;
+  width: 90px;
+  height: 35px;
+  border-radius: 5px;
+  border-color: transparent;
+  background-color: rgb(186, 136, 248);
+}
+.todo button:hover {
+  cursor: pointer;
+  background-color: rgb(157, 78, 255);
+}
+.lists li {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  height: 40px;
+  border-left: 5px solid rgb(238, 238, 238);
+  border-top: 1px solid rgb(238, 238, 238);
+  border-bottom: 1px solid rgb(238, 238, 238);
+  border-right: 1px solid rgb(238, 238, 238);
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.lists button {
+  color: white;
+  width: 90px;
+  height: 35px;
+  margin-right: 10%;
+  background-color: rgb(186, 136, 248);
+  border-radius: 5px;
+  border-color: transparent;
+}
+.lists button:hover {
+  cursor: pointer;
+  background-color: rgb(157, 78, 255);
+}
+.delbtn:hover {
+  background-color: #e02434;
+}
+.editwrapper {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  position: absolute;
+}
+.editwrapper form {
+  width: 60%;
+  margin: auto;
+
+  text-align: center;
+}
+.editwrapper {
+  width: 100%;
+  position: absolute;
+  top: -600px;
+  transition: 1s;
+}
+.editon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: 1s;
+  background-color: rgb(238, 238, 238, 0.8);
+}
+.editon form {
+  padding: 10px;
+  padding-top: 60px;
+  width: 30%;
+  height: 300px;
+  margin: auto;
+  border-radius: 5px;
+  background-color: rgba(184, 184, 184, 0.8);
+}
+
+.editon form input {
+  width: 300px;
+  height: 30px;
+  margin-top: 10%;
+}
+.editon form button {
+  color: white;
+  width: 90px;
+  height: 35px;
+  margin-right: 10%;
+  background-color: rgb(186, 136, 248);
+  border-radius: 5px;
+  border-color: transparent;
+}
+.editon form button:hover {
+  cursor: pointer;
+  background-color: rgb(157, 78, 255);
+}
