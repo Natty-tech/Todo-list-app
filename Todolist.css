@@ -51,6 +51,9 @@ body {
   cursor: pointer;
   background-color: rgb(157, 78, 255);
 }
+.lists ul {
+  padding-left: 0;
+}
 .lists li {
   width: 100%;
   padding: 10px;
@@ -92,7 +95,6 @@ body {
 .editwrapper form {
   width: 60%;
   margin: auto;
-
   text-align: center;
 }
 .editwrapper {
