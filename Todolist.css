@@ -118,7 +118,8 @@ body {
 .editon form {
   padding: 10px;
   padding-top: 60px;
-  width: 30%;
+  width: 90%;
+  max-width: 400px;
   height: 300px;
   margin: auto;
   border-radius: 5px;
